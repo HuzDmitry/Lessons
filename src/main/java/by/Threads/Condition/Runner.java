@@ -20,7 +20,7 @@ public class Runner {
             try {
                 while (!Thread.currentThread().isInterrupted()){
                     buffer.take();
-                    TimeUnit.SECONDS.sleep(3);
+                    TimeUnit.SECONDS.sleep(2);
                 }
             }catch (final InterruptedException interruptedException){
                 Thread.currentThread().interrupt();
